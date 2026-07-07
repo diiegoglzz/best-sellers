@@ -6,4 +6,4 @@ df = file_io.load_csv("data/bestsellers.csv")
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
-print(logic.top_books_by_rating(df))
+print(logic.top_authors(df))
